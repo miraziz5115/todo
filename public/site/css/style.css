@@ -1,0 +1,50 @@
+.like_icon{
+	margin:10px 10px 0 0;
+}
+
+.commentArea{
+	resize:none;
+	border:none; 
+	background: none!important;
+	outline: none;
+	overflow: hidden;
+
+}
+.NewcommentArea{
+	resize:vertical; 
+	margin:10px 0;
+
+}
+.like, .dislike{
+	font-size: 1.5em;
+}
+
+
+.liked{
+	color:#337ab7;
+}
+
+.profileImage{
+	border:5px solid #ccd9f5;
+	padding: 5px
+}
+
+.todoblock{
+	background: #fffb97;
+	padding: 10px;
+	color:#000;
+	margin-bottom: 20px;
+	box-shadow: 0 0 2px 2px #c0c0c0;
+	border:none;
+}
+.todoblock hr{
+	background:  #c0c0c0;
+	padding: 1px;
+	width: 98%;
+}
+.todoEdit, .todoDelete, .todoDone{
+	cursor: pointer;
+}
+.todoRight{
+	/*border-left:1px solid #fff;*/
+}
